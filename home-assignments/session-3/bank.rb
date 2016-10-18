@@ -1,4 +1,7 @@
 balance = rand(100..1000)
+# Some more options for random number
+# balance = 100.upto(1000).to_a.shuffle.first
+# balance = [*100...1000].sample
 
 # print_action method expects two parameters "action" and "amount"
 def print_action(action, amount)
